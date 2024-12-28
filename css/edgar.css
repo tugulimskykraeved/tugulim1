@@ -1,0 +1,277 @@
+.header{
+    background: #b820ff;
+}
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.container_header{
+    display:flex;
+    align-items: center;
+    padding: 18px 0;
+    justify-content: space-between;
+}
+.logo__img{
+    width: 180px;
+    height: 200px;
+}
+.logo{
+    color: #FFF;
+    font-family: Nico Moji;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 50;
+    line-height: normal;
+    margin-right: auto;
+
+}
+.nav__list{
+    display:flex;
+    list-style: none;
+}
+.nav__item{
+    margin-right: 64px;
+    color: #ffffff;
+font-family:'Press Start 2P', cursive;
+font-style: normal;
+line-height: normal;
+}
+.nav__link{
+    color: #E4E4E4;
+    font-family: Nico Moji;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+.nav__link:hover{
+    color: rgb(0, 0, 0);
+    transition:2s;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.hero-block{
+    background: #000000;/* Главный блок */
+}
+.main__img{
+    margin-right: 8%;
+    width: 450px;
+    height: 400px;
+}
+.hero-block__title{
+    color: #ffffff;
+font-family:Roboto;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-indent: 80px; /* Красная строка */
+}
+.hero-block__text{
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-indent: 80px;
+}
+.hero-block__text1{
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-indent: 80px;
+    text-align: center;
+}
+.hero-block__btn{
+    width: 224px;
+    height: 47px;
+    background-color: rgb(0, 0, 0);
+}
+.container_hero-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 90px 0 90px;
+}
+.hero-block__img{
+    margin-right: 16%;
+    width: 655px;
+    height: 400px;
+}
+.about{
+    background: #2C2C2C;
+}
+.container_about{
+    padding: 120px 0 100px 0;
+}
+.about__title{
+    color: #E4E4E4;
+font-family: Nico Moji;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+}
+.skills__list{
+    color: #E4E4E4;
+font-family: Nico Moji;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.skills__title{
+    color: #E4E4E4;
+font-family: Nico Moji;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.about__content{
+    display: flex;
+    justify-content: space-between;
+}
+.skills{
+padding-top: 50px;
+width: 450px;
+}
+.skills__empty{
+    height: 5px;
+    width: 100%;
+    background: #E4E4E4;
+}
+.skills__full{
+    height: 5px;
+    width: 99%;
+    background: #0365e6;
+}
+.skills__full2{
+    height: 5px;
+    width: 79%;
+    background: #0365e6;
+}
+.skills__full3{
+    height: 5px;
+    width: 100%;
+    background: #0365e6;
+}
+.about__img{
+    margin-left: 30%;
+    margin-bottom: 22%;
+}
+.video{
+    background: #2C2C2C;
+}
+.container_video{
+    padding: 120px 0 100px 0;
+}
+.video__title{
+    color: #E4E4E4;
+    font-family: Nico Moji;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+.video__content{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.video__video{
+    width: 100%;
+    height: 568px;
+    border: 50px solid #424141;
+    border-radius: 5%;
+}
+.gallery{
+    background: #2C2C2C;
+    padding: 70px 0 57px;   
+}
+.gallery__title{
+    color: #E4E4E4;
+    font-family: Nico Moji;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+.gallery__list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+
+}
+.gallery__item{
+    margin-left: 11px;
+    width: 30%;
+}
+.gallery__img{
+    width: 100%;
+}
+.footer{
+    background: #2C2C2C;
+}
+.container_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0 50px;
+    
+}
+.footer__title{
+    color: #E4E4E4;
+font-family: Nico Moji;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: -8px;
+}
+.footer__text{
+    color: #FFF;
+    font-family: Nico Moji;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 164.063%; 
+}
+.footer__list{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+.lexa{
+    background: #2C2C2C;
+}
+.lexajpg{
+    width: 50%;
+    margin-left: 80%;
+}
+.uuu{
+    color: #FFF;
+    font-family: Nico Moji;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 164.063%;
+}
+.author{
+    color: #FFF;
+    font-family: Nico Moji;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 164.063%;
+}
